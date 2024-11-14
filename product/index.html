@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="product-style.css">
+    <link rel="shortcut icon" href="../image/favicon.ico">
+    <title>從纖維到面料 織出一片永續島嶼</title>
+</head>
+<body>
+    <div class="container">
+        <div class="canvas">
+            <div class="content">
+                <div class="banner" id="banner"></div>
+                <img class="illustration" id="illustration" alt="產品插圖">
+                <div class="product-content" id="product-content">
+                    <div class="text" id="product-content-text">
+                        
+                    </div>
+                    <img class="logo" src="image/logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var getUrlString = location.href;
+        var url = new URL(getUrlString);
+        var result = url.searchParams.get('product');
+        console.log(result);
+        if (result == null)
+            window.location.href = "../";
+
+        
+        var productArray = [{ theme: "a", id: "a01"},{ theme: "a", id: "a02"},{ theme: "a", id: "a03"},
+                            { theme: "b", id: "b01"},{ theme: "b", id: "b02"},{ theme: "b", id: "b03"},
+                            { theme: "c", id: "c01"},{ theme: "c", id: "c02"},{ theme: "c", id: "c03"},
+                            { theme: "c", id: "c04"},{ theme: "c", id: "c05"},{ theme: "c", id: "c06"},
+                            { theme: "d", id: "d01"},{ theme: "d", id: "d02"},
+                           ];
+
+        var product;
+        var themeDOM;
+        var productDOM;
+        productArray.forEach(setting => {
+            if(result == setting.id) product = setting;
+        });
+        GetProductXML();      
+        
+        //#region - XML -
+        function GetProductXML()
+        {
+            fetch('product.xml').then((response)=>{
+            response.text().then((xml)=>{
+                // xml -> html
+                var parser = new DOMParser();
+                var xmlDOM = parser.parseFromString(xml, 'application/xml');
+
+                // get product theme setting
+                themeDOM = xmlDOM.querySelector("#" + product.theme);
+                console.log(themeDOM);
+                InitializeBanner()
+
+                // get product setting
+                productDOM = xmlDOM.querySelector("#" + product.id);
+                console.log(productDOM);
+                InitializeProductContent();
+            });                
+        }); 
+        }
+        //#endregion
+
+        //#region - BANNER -
+        function InitializeBanner()
+        {
+            var banner = document.getElementById("banner");
+            // set banner color            
+            banner.className += " " + themeDOM.children[0].innerHTML;
+            // add element
+            var chText = "<div class='ch-text'>" + themeDOM.children[1].innerHTML+"</div>";
+            var enText = "<div class='en-text'>" + themeDOM.children[2].innerHTML+"</div>";
+            var backBtn = "<input class='btn btn-back' type='image' src='../image/button-back.png' onclick='LoadMenuPage()'>";
+            banner.innerHTML = chText + enText + backBtn;       
+        }
+        function LoadMenuPage()
+        {
+            location.href = themeDOM.children[3].innerHTML;
+        }
+        //#endregion
+    
+        //#region - CONTENT -
+        function InitializeProductContent()
+        {
+            // illustration
+            var illustration = document.getElementById("illustration");
+            illustration.src = productDOM.children[0].innerHTML;
+            // content panel
+            var content = document.getElementById("product-content");
+            content.className += " " + themeDOM.children[0].innerHTML;
+            // content text
+            var contentText = document.getElementById("product-content-text");
+            var enTitle = "<div class='en-text en-title'>" + productDOM.children[1].innerHTML + "</div>";
+            var chTitle = "<div class='ch-text ch-title'>" + productDOM.children[2].innerHTML + "</div>";
+            var chText = "<div class='ch-text'>" + productDOM.children[3].innerHTML + "</div>";
+            var enText = "<div class='en-text'>" + productDOM.children[4].innerHTML + "</div>";
+            contentText.innerHTML = enTitle + chTitle + chText + enText;
+        }
+        //#endregion
+    </script>
+</body>
+</html>

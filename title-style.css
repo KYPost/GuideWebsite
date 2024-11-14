@@ -1,0 +1,18 @@
+.canvas{
+    background: url("image/title-bg.png") no-repeat center top;
+    background-size: cover;
+}
+.content{
+    margin: 21% auto 20% auto;
+}
+.title-content{
+    margin: 0 0 5% 0;
+    width: 100%;
+}
+.start-btn{
+    margin: 0% 7.7% 0% 7.7%;
+    width: 84.6%;
+}
+.start-btn:hover  {
+  opacity: 0.5;
+}

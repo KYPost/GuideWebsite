@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<catalog>
+    <theme id="a">
+        <color-class> theme-a-color</color-class>
+        <ch-text>綠色再生革命</ch-text>
+        <en-text>SUSTAINABLE REGENERATION REVOLUTION</en-text>
+        <menu-url>../menu/?theme=a</menu-url>
+    </theme>
+    <theme id="b">
+        <color-class> theme-b-color</color-class>
+        <ch-text>親膚三重奏</ch-text>
+        <en-text>SKIN-FRIENDLY TRIO</en-text>
+        <menu-url>../menu/?theme=b</menu-url>
+    </theme>
+    <theme id="c">
+        <color-class> theme-c-color</color-class>
+        <ch-text>低碳新時尚</ch-text>
+        <en-text>CARBON-CONSCIOUS</en-text>
+        <menu-url>../menu/?theme=c</menu-url>
+    </theme>
+    <theme id="d">
+        <color-class> theme-d-color</color-class>
+        <ch-text>纖維超能力</ch-text>
+        <en-text>FIBER POWER INNOVATIONS</en-text>
+        <menu-url>../menu/?theme=d</menu-url>
+    </theme>
+
+    <product id="a01">
+        <illustration>image/a01.png</illustration>
+        <en-title> EVER OLA <br /> Ocean X Land X Air</en-title>
+        <ch-title>海陸空三合一永續環保布料</ch-title>
+        <ch-text>
+            宏遠採用了多種的永續聚酯來開發此系列，例如BIO3低碳聚酯、海洋回收聚酯和寶特瓶回收聚酯。透過使用這些不同的永續素材，有效地減少了廢棄物產生也減少了對化石材料的依賴。此外，以宏遠特有假撚加工技術為這些織物提供了出色彈性，提高了其功能性和舒適性。這種創造性的方法促進了更綠色的紡織行業，同時提供了高品質且實用的布料。
+        </ch-text>
+        <en-text>
+            Everest incorporates various sustainable polyester choices like BIO3, ocean recycled
+            polyester, and landfill-sourced polyester. By utilizing these different sources, Everest
+            effectively minimizes waste and decreases dependence on fossil-based materials.
+            Furthermore, the use of specialized yarn texturing technology provides these fabrics
+            with outstanding stretch, improving their functionality and adaptability. This inventive
+            method promotes a greener textile sector while offering top-notch, practical fabrics.
+        </en-text>
+    </product>
+    <product id="a02">
+        <illustration>image/a02.png</illustration>
+        <en-title>Ever Tire Recycle Nylon<br />x Recycle Spandex</en-title>
+        <ch-title>輪胎回收尼龍 X 回收彈性纖維</ch-title>
+        <ch-text>
+            在輪胎生命週期末期，透過創新回收技術，將廢棄輪胎以化學回收法轉化成尼龍原料，並搭配回收彈性纖維開發此系列，可有效減少石化原料的消耗，為地球的永續發展做出貢獻。
+        </ch-text>
+        <en-text>
+            At the end of the tire's lifecycle, through innovative recycling technology, waste tires
+            are chemically converted into nylon raw materials. Combined with recycle spandex, this
+            series is developed to effectively reduce the consumption of petrochemical materials and
+            contribute to the sustainable development of the planet.
+        </en-text>
+    </product>
+    <product id="a03">
+        <illustration>image/a03.png</illustration>
+        <en-title>EVER rTex</en-title>
+        <ch-title>織物回收聚酯</ch-title>
+        <ch-text>
+            Ever rTex 系列使用降級和老化的胚布，通過先進回收方法將其升級為再生聚酯紗線。這不僅減少了廢物的產生，還降低了資源消耗，並有助於減少碳排放。
+        </ch-text>
+        <en-text>
+            Ever rTex series uses downgraded and aged greige, utilizing a physical recycling method
+            to upgrade it into recycled polyester yarn. This not only reduces waste generation but
+            also minimizes resource consumption and contributes to lowering carbon emissions.
+        </en-text>
+    </product>
+    <product id="b01">
+        <illustration>image/b01.png</illustration>
+        <en-title>Ever Regenerative Cotton</en-title>
+        <ch-title>再生永續棉系列</ch-title>
+        <ch-text>
+            透過使用再生農法種植棉花，可以修復受損的土壤，並通過混種增加生物多樣性，此外，這種農業方式顯著減少了二氧化碳排放，並減少了污染，長期來看有助於打造更乾淨和健康的環境。
+        </ch-text>
+        <en-text>
+            By using regenerative farming methods to grow cotton, we can restore soil health and
+            enhance biodiversity through intercropping. Additionally, this approach significantly
+            reduces CO2 emissions and minimizes pollution, contributing to a cleaner and healthier
+            environment in the long term.
+        </en-text>
+    </product>
+    <product id="b02">
+        <illustration>image/b02.png</illustration>
+        <en-title>EVER rEM2</en-title>
+        <ch-title>仿棉感聚酯系列</ch-title>
+        <ch-text>
+            以回收瓶片製成的rEM2，能在98°C的較低溫度下染色，更少的染料需求並縮短染色過程，同時保持相同的色牢度，與傳統的聚酯纖維相比，rEM2的染色過程可減少40%的碳排放。此外，使用rEM2製成的紡織品具有極高的柔軟度和良好的濕度管理，大大提升其親膚性。
+        </ch-text>
+        <en-text>
+            rEM2 is a recycled material made from PET bottles. It can be dyed at a lower temperature
+            of just 98°C, requiring less dye and shortening the dyeing process while maintaining the
+            same level of color fastness. Compared to conventional polyester, the dyeing process for
+            rEM2 reduces carbon emissionsby 40%.
+            Furthermore, textiles made from rEM2 are exceptionally soft andoffer excellent moisture
+            management, making them highly skin-friendly.
+        </en-text>
+    </product>
+    <product id="b03">
+        <illustration>image/b03.png</illustration>
+        <en-title>Ever Recycled Nylon<br />Cottony Knit</en-title>
+        <ch-title>環保尼龍棉感彈性布</ch-title>
+        <ch-text>
+            無論是在日常生活或在運動時，Cottony
+            Knit能帶來前所未有的舒適度。不僅能迅速吸收並蒸發汗水，保持肌膚乾爽，還能隨著身體的動作自由伸展。穿上它，你會發現無論是進行瑜伽、跑步，還是進行高強度的健身訓練，都能讓你感受到前所未有的輕盈與自由。這種設計不僅僅是為了功能性，更是為了讓每一位穿著者都能自信的展現自我。
+        </ch-text>
+        <en-text>
+            No matter in daily life or during exercise, it provides an unprecedented level of
+            comfort. This fabric not only quickly absorbs and evaporates sweat, keeping the skin
+            dry, but also stretches freely with the body's movements, avoiding a feeling of
+            restriction. When you wear it, you'll find that whether you're doing yoga, running, or
+            engaging in high-intensity workouts, you can experience an unparalleled sense of
+            lightness and freedom. This design is not just about functionality; it's also about
+            allowing each wearer to confidently and effortlessly express themselves.
+        </en-text>
+    </product>
+    <product id="c01">
+        <illustration>image/c01.png</illustration>
+        <en-title>Ever Solvent-Free Wear</en-title>
+        <ch-title>無溶劑防水透濕機能衣 </ch-title>
+        <ch-text>
+            無溶劑防水透濕機能衣使用對環境友善的水性透濕膜，具備防水及透濕性能10K/10K。此防水透濕膜生產過程不使用溶劑，符合環境永續的原則。結合宏遠的貼合技術，這項貼合產品不僅親膚，而且適合應用於戶外服飾，提供高性能、永續且對環境溫和的解決方案。
+        </ch-text>
+        <en-text>
+            Ever Solvent-Free Wear, with an eco-friendly, water-based breathable membrane, has a
+            10K/10K waterproof and breathable rating. Produced without solvents, it aligns with
+            environmental sustainability principles. Combined with Everest's lamination technology,
+            this clothing is not only skin-friendly but also perfect for outdoor wear, providing a
+            high-performance, sustainable solution that is gentle on the environment.
+        </en-text>
+    </product>
+    <product id="c02">
+        <illustration>image/c02.png</illustration>
+        <en-title>Ever Recycle Wear</en-title>
+        <ch-title>回收防水透濕機能衣</ch-title>
+        <ch-text>
+            回收防水透濕機能衣是宏遠基於環境保護理念開發的貼合產品，結合回收PET衣與回收PU膜。回收PU膜是將寶特瓶以化學回收方式的原料再製而成，含有20%的回收含量。這項貼合產品防水及透濕的性能達到10K/10K。
+        </ch-text>
+        <en-text>
+            Ever Recycle Wear aiming at the environmental protection combines recycled PET fabric
+            and recycle PU membrane. The recycled PU membrane contains 20% recycled content is made
+            from recycled PET bottles via chemical processing recycling. The waterproof and
+            breathability can reach 10K/10K.
+        </en-text>
+    </product>
+    <product id="c03">
+        <illustration>image/c03.png</illustration>
+        <en-title>Natural Cotton-Like Yarn</en-title>
+        <ch-title>自然棉感纖維 </ch-title>
+        <ch-text>
+            傳統聚酯纖維的手感較硬，缺乏天然纖維如棉的柔軟和舒適。利用差異化加工紗技術，使聚酯纖維觸感柔軟，與棉相似，且保留了聚酯纖維的抗皺和易洗快乾的特性。相比天然棉，聚酯纖維的生產成本更低，且可大量生產。使用回收材料製成，具有環保優勢。
+        </ch-text>
+        <en-text>
+            Traditional polyester fibers have a harder feel and lack the softness and comfort of
+            natural fibers like cotton. By using differentiated processing yarn techniques,
+            polyester fibers can be made to feel soft and similar to cotton while retaining their
+            wrinkle resistance and easy-care, quick-drying properties. Compared to natural cotton,
+            polyester fibers have lower production costs and can be mass-produced. Made from
+            recycled materials, they also offer environmental benefits.
+        </en-text>
+    </product>
+    <product id="c04">
+        <illustration>image/c04.png</illustration>
+        <en-title>Flexible and Comfortable<br />Workwear</en-title>
+        <ch-title>彈性舒適工作服 </ch-title>
+        <ch-text>
+            以耐洗與舒適性角度出發,選擇彈性紗線並搭配差異化的假撚工法做成具有彈性且耐洗穿著舒適的工作服布料。
+        </ch-text>
+        <en-text>
+            From the perspective of washability and comfort, we choose elastic yarns and utilize
+            differential false twisting techniques to create workwear fabric that is elastic,
+            washable, and comfortable to wear.
+        </en-text>
+    </product>
+    <product id="c05">
+        <illustration>image/c05.png</illustration>
+        <en-title>Water-Washed<br />3D Seamless Printing</en-title>
+        <ch-title>水洗3D立體無痕印花</ch-title>
+        <ch-text>
+            水洗3D立體無痕印花是利用刻有凹形花紋的版銅，使膠料轉移到布料表面後再將膠料清洗掉，可根據膠料配方創造出布料的立體度，結合圖案的設計，不僅能夠創造出生動、豐富的外觀效果和藝術性，也滿足市場上的流行需求。
+        </ch-text>
+        <en-text>
+            Water-washed 3D seamless printing utilizes a copper plate engraved with recessed
+            patterns. After transferring the adhesive material onto the fabric, the adhesive is
+            washed away. Depending on the adhesive formulation, the fabric's dimensionality can be
+            achieved. Combined with pattern design, this technique not only produces vivid and rich
+            visual effects and artistic appeal but also meets market fashion demands.
+        </en-text>
+    </product>
+    <product id="c06">
+        <illustration>image/c06.png</illustration>
+        <en-title>Wrinkles Reflective<br />Printing</en-title>
+        <ch-title>紋理光影反射印花</ch-title>
+        <ch-text>
+            紋理光影反射印花透過將布料置於特定溫度和壓力下的處理，成功創造出所需的皺摺紋理外觀。結合反光印花，在製程中採用了水性膠水降低了對環境的負擔，產品除了獨特的紋理外觀，兼具提高夜晚穿著的可視性，滿足市場對美感和品質的追求。
+        </ch-text>
+        <en-text>
+            Wrinkles reflective printing creates the desired wrinkle texture by treating the fabric
+            under specific temperature and pressure conditions. Combined with reflective printing,
+            this process uses water-based adhesives to reduce environmental impact. The product not
+            only features a unique textured appearance but also enhances visibility at night,
+            meeting the market’s demand for both aesthetics and quality.
+        </en-text>
+    </product>
+
+    <product id="d01">
+        <illustration>image/d01.png</illustration>
+        <en-title>Nylon66 with FINE Denier<br />&amp; Mechanical Stretch<br />Compound Yarn</en-title>
+        <ch-title>細丹N66及複合機械彈</ch-title>
+        <ch-text>
+            極致細丹環保N66機械彈。
+        </ch-text>
+        <en-text>
+            Ultra-fine and eco-friendly N66 mechanical stretch yarn
+        </en-text>
+    </product>
+    <product id="d02">
+        <illustration>image/d02.png</illustration>
+        <en-title>Special Compound Yarn<br />in Multi-color Tones</en-title>
+        <ch-title>多色調特殊複合紗</ch-title>
+        <ch-text>
+            多股複合呈現多色調或特殊手感。
+        </ch-text>
+        <en-text>
+            Multi-yarn composite presents multiple colors or special hand feeling.
+        </en-text>
+    </product>
+</catalog>
