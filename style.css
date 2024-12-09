@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size:0
+}
+body {
+    min-height: 100vh;      
+}
+a{
+    text-decoration:none
+}
+.container
+{
+    text-align: center;    
+    &:after{
+        content: '';
+        height: 100%;        
+        display: inline-block;
+        width: 0px;
+    }
+    .canvas{
+        width: 100vw;
+        max-width: 780px;
+        min-width: 360px;
+        min-height: 100vh;
+        display: inline-block;
+        margin: auto;
+    }
+}
+
+.btn{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.btn:hover  {
+  opacity: 0.7;
+}
+
+.btn-header{
+    margin: 0;
+    width: 100%;
+    border: 0;
+}
+
+.ch-text{
+    font-family: "Noto Serif TC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(16px, 4vw, 32px);
+    letter-spacing: 0.6em;
+    color: white;
+}
+@font-face {
+    font-family: Acumin Variable Concept;
+    src: url(font/AcuminVariableConcept.otf);
+}
+.en-text{
+    font-family: Acumin Variable Concept, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: clamp(11px, 2.8vw, 22px);
+    letter-spacing: 0.075em;
+    color: white;
+}
+.banner{
+    position: relative;
+    margin-bottom: 10%;
+    .btn-back{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        width: 7.7%;
+    }
+    .ch-text{
+        padding-top: 3%;
+    }
+    .en-text{
+        padding-bottom: 3%;
+    }
+}
+.theme-a-color{    
+    background-image: linear-gradient(to right, #b9e793 0%, #1cb1bb 100%);
+}
+.theme-b-color{
+    background-image: linear-gradient(to right, #f1b5ff 0%, #ffcd6a 100%);
+}
+.theme-c-color{
+    background-image: linear-gradient(to right, #c8acff 0%, #4dc7c7 100%);
+}
+.theme-d-color{
+    background-image: linear-gradient(to right, #ffc96a 0%, #dbc1ff 100%);
+}

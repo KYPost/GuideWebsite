@@ -1,0 +1,30 @@
+.illustration{
+    margin: 0;
+    width: 100%;
+}
+.content{
+    margin-bottom: 20%;
+}
+.title{
+    margin-top: 5%;
+    .ch-text{
+        color: #1cb1bb;
+    }
+    .en-text{
+        font-family: acumin-pro, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        color: #1cb1bb;
+    }
+}
+li{
+    margin-top: 5%;
+}
+
+.btn-theme{
+    margin: 0 7.7% 0 7.7%;
+    width: 84.6%;
+    border-radius: clamp(10px, 2.6vw, 20px);
+    text-align: center;
+    padding: 3% 0 3.5% 0;
+}

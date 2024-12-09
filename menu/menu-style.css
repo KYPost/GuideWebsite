@@ -1,0 +1,81 @@
+.illustration{
+    margin: 0;
+    width: 100%;
+}
+li{
+    margin-bottom: 5%;
+}
+.btn-menu{
+    position: relative;
+    width: 84.6%;
+    margin: 0% 7.7% 0% 7.7%;
+    border: 2px solid;
+    border-radius: clamp(10px, 2.6vw, 20px);
+    text-align: left;
+    ul{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        height: clamp(80px, 20.5vw, 160px);;
+    }
+    .ch-text{
+        font-family: Microsoft JhengHei;
+        font-size: clamp(11px, 2.8vw, 22px);
+        letter-spacing: 0.075em;
+        color: #494949;
+
+        width: clamp(220px,56.4vw,440px);
+        margin: 5% 5% 0 5%;
+    }
+    hr{
+        border : 0 ;
+        border-top : 2px solid #d0d0d5 ;
+        margin: 2% 0 2% 5%;
+    }
+    .en-text{
+        font-size: clamp(11px, 2.8vw, 22px);
+        color: #494949;
+
+        width: clamp(220px,56.4vw,440px);
+        margin: 0 5% 5% 5%;
+    }
+}
+.index-text{
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: clamp(60px, 15.4vw, 120px);
+    color: #494949;
+    height: clamp(70px, 17.9vw, 140px);
+    align-self: flex-end;
+}
+.theme-a-btn-color{
+    border-color: #b9e793;
+
+    .index-text{
+        color: #ade281;
+    }
+}
+.theme-b-btn-color{
+    border-color: #f1b5ff;
+    .index-text{
+        color: #dda1eb;
+    }
+}
+.theme-c-btn-color{
+    border-color: #c8acff;
+    .index-text{
+        color: #ae94e2;
+    }
+}
+.theme-d-btn-color{
+    border-color: #ffcd6a;
+    .index-text{
+        color: #ecbc5c;
+    }
+}
